@@ -3,6 +3,7 @@
 use App\Models\BusinessSetting;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\SslCommerzPaymentController;
 use App\Http\Controllers\StripePaymentController;
 use App\Http\Controllers\PaymobController;
@@ -29,6 +30,11 @@ use App\Http\Controllers\PaystackController;
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::view('subscription/payment/view' , 'Subscription_payment_view')->name('subscription_payment_view');
+
+Route::get('/foo', function () {
+    Artisan::call('storage:link');
+});
+
 
 //login
 
