@@ -4707,4 +4707,6 @@
   'The given password has appeared in a data leak. Please choose a different password.' => 'The given password has appeared in a data leak. Please choose a different password.',
   'If_disabled,_users_can_not_see_popular_foods_on_the_user_app.' => 'If disabled  users can not see popular foods on the user app.',
   'If_disabled,_users_can_not_see_popular_restaurants_section_on_the_user_app.' => 'If disabled  users can not see popular restaurants section on the user app.',
+  '500_warning_message' => '500 warning message',
+  'reload_page' => 'Reload page',
 );
